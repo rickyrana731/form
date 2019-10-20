@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(login1.jpg);
+  background-size:cover;
+  font-family: tahoma,sans-serif;
+  text-align: center;
+}
+.form-area
+{
+  position: absolute;
+  /* top: 20%;
+  left: 45%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 500px;
+  width: 300px;
+  box-sizing: border-box;
+
+  padding: 40px;
+}
+h3{
+
+padding: 0,0,1px;
+  margin-top: 10px;
+  font-weight: bold;
+  display: inline-flex;
+  block-size:25px;
+  font-size: 40px;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  /* margin-bottom: 30px; */
+
+
+  color: #ffffff;
+}
+.form-area p{
+  margin: 0;
+  padding: 0;
+font-weight: bold;
+  color:#ffffff;
+  font-size: 20px;
+  font-family: 'Arimo', sans-serif;
+
+}
+.form-area input,select{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-area input[type=text],.form-area input[type=email],.form-area input[type=password]{
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+
+  outline: none;
+  height: 40px;
+  color: #ffffff;
+  display: 16px;
+}
+::placeholder select{
+  margin-top: 20px;
+  padding: 10px 0;
+
+}
+::placeholder {
+text-align: center;
+color: #AFD5C2;
+
+}
+.form-area input[type=button]{
+  border: none;
+  height: 30px;
+  outline: none;
+  color:#ffffff;
+  font-size: 15px;
+  background-color: yellow;
+  cursor: pointer;
+  color: black;
+  border-radius: 20px;
+}
+.font-area input[type=submit]:hover{
+  background-color: yellow;
+  color: #ffffff;
+}
+.form-area a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  decoration:none;
+}
+
+
+#email
+{
+  background: transparent;
+  color: #fff;
+}
+input[type=email]:hover{
+  background: yellow;
+  color:grey;
+}
